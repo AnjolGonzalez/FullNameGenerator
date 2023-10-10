@@ -18,15 +18,18 @@ public class FullNameApplication {
 
         System.out.print("Suffix: ");
         String Suffix = scanner.nextLine();
+
         int length = Suffix.length();
-        if(length > 0);
+        if(length > 0)
         {
 
-            Lname = Lname + ",";
+            Lname = Lname + ", ";
 
         }
 
-        System.out.println("Full name: " + name + " " + Mname + " " + Lname + " " + Suffix);
+
+
+        System.out.println("Full name: " + name + " " + Mname + " " + Lname + Suffix);
 
     }
 }
